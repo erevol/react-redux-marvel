@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import {
     Container,
     Header,
@@ -49,6 +51,10 @@ class SelectedCharacter extends Component {
         );
     }
 }
+
+SelectedCharacter.propTypes = {
+    character: PropTypes.object.isRequired
+};
 
 const mapStateToProps = state => ({
     character: state.characters.character

@@ -24,9 +24,9 @@ class App extends Component {
                     <Grid.Column width={10}>
                         <CharactersList />
                     </Grid.Column>
-                    <Grid.Column width={6}>
+                    <Grid.Column width={1}>
                         <Ref innerRef={this.contextRef}>
-                            <Rail>
+                            <Rail position="right">
                                 <Sticky context={this.contextRef} offset={100}>
                                     <SelectedCharacter />
                                 </Sticky>
