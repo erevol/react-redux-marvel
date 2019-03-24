@@ -2,7 +2,7 @@
 
 ![ReactMarvel](./src/assets/react-marvel.png)
 
-This is a sample React app which demonstrates how I uses the marvel API with Redux to show a list of marvel characters and a detailed view of a selected character.
+This is a sample React app which demonstrates how I used the marvel API with Redux to show a list of Marvel characters and a detailed view of the selected character.
 
 ## Libs
  - [Redux](http://redux.js.org/)

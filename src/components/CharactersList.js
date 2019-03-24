@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
     Button,
     Container,
@@ -60,6 +61,13 @@ class CharactersList extends Component {
         );
     }
 }
+
+CharactersList.propTypes = {
+    fetchAllCharacters: PropTypes.func.isRequired,
+    fetchCharacterById: PropTypes.func.isRequired,
+    characters: PropTypes.object.isRequired,
+    character: PropTypes.object.isRequired
+};
 
 const mapStateToProps = state => ({
     characters: state.characters.characters,
