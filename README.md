@@ -20,7 +20,7 @@ This is a sample React app which demonstrates how I used the marvel API with Red
 
  ```
  $ git clone https://github.com/erevol/react-redux-marvel
- $ cd react-marvel-catalog
+ $ cd react-redux-marvel
  $ npm install
  $ npm start
  ```
